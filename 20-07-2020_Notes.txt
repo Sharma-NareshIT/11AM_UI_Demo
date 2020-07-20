@@ -1,0 +1,71 @@
+		UI in Web Development
+- HTML
+- CSS
+- Client Side Script
+	Language
+	Library
+	Framework
+- Publishing Tools
+- IDE
+
+		Web Teminology
+		------------------------
+1. Network 
+    - Computer network comprises of group of computers connecting with each other for sharing of information and resources.
+    - 1960's ARPANET [Advanced Research Projects Agency Network] introduced by US-DOD.
+    - Paul Baran idea was to connect computers.
+    - Computer networks are classified into 3 major types
+	a) LAN	(Local Area Network)
+	b) MAN	(Metro politan Area Network)
+	c) WAN     (Wide Area Network)
+2. Internet: 
+    - It resembles a Wide Area Network.
+    - A global system of interconnected computer networks.
+    - It uses Internet protocol suite (TCP/IP) to communicated between networks.
+    - It consists of private, public , academic, business , and governement networks.
+
+3. Web 
+    - In early 1990 "Tim Berners Lee" introduced the concept of "Web".
+    - Web is a portion of Internet with restricted access.
+    - Tim Berners Lee Introduced "HTML".
+    - Web Standards - W3C [World Wide Web Consortium]
+
+4. Web Server
+    - It resembles both hardware and software.
+    - It satisfies the client request by sending and receiving the data.
+    - The popular webserver software 
+	a) IIS (Internet Information Services)
+	b) Tomcat
+	c) Nginx
+	d) LiteSpeed
+	e) Lighttpd etc..
+
+Locating a WebServer on Windows PC:
+================================
+1. Open Control Panel
+2. Switch to "Large Icons"
+3. Goto "Administrative Tools"
+4. Look for "Internet Information Services Manager" [IIS]
+
+
+Add IIS into Windows PC:
+=====================
+1. Open Control Panel
+2. Goto "Programs and Features"
+3. Click on "Turn Windows Feature On or OFF"
+4. Select "Internet Information Services"
+5. Click OK
+
+Test your Local Web Server:
+========================
+1. Open any Browser
+2. Type the following in Address bar
+	http://localhost
+	         (or)
+	http://127.0.0.1
+
+
+
+
+
+
