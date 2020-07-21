@@ -1,0 +1,66 @@
+Test :
+    http://localhost  or   http://127.0.0.1
+
+Web Site:
+- Web is a Virtual Directory on Web Server
+	Site	- Location
+	Web	- Location in Web Server
+- Website comprises of resources that are intended to serve the client.
+
+Creating a WebSite on Local Web Server:
+------------------------------------------------------------
+1. Open your local web server
+	
+	run → inetmgr
+
+2. Expand local computer  [ http://localhost ]
+3. Expand "Sites" folder
+4. Right Click on "Default WebSite"
+5. Select "Add Virtual Directory"
+
+	alias (website name) : Amazon
+	Physical Path	 : C:\Amazon
+
+   Virtual Path:    http://127.0.0.1/Amazon
+	           http://localhost/Amazon
+
+   Physical Path:  C:\Amazon
+
+   Virtual Path is often called as  URL - 
+	Uniform Resource Locator
+
+6. Click OK after configuring Virtual and Physical path
+	[ Website is created ]
+
+7. Open the physical path of your website in Windows File Explorer and mantain resources
+		
+		C:\Amazon
+		    |_Images 	[folder]
+		    |  |_banner1.jpg
+		    |  |_banner2.jpg
+		    |_Docs     	[folder]
+		       |_cssdemo.pdf
+
+
+Note: Always use "/" forward slash for virtual path
+	              "\" back slash for physical path
+
+Test:
+  http://localhost/Amazon/Images/banner1.jpg
+  http://127.0.0.1/Amazon/Docs/cssdemo.pdf
+
+- We have to design a proper UI (User Interface) for Website so that users can interact with the resources in our website.
+- The UI for a website is designed by using a HyperText document know as "WebPage".
+
+Web Page :  It is a Hyper Text Document that provides an UI
+	    from where user can interact with our 	    resources.
+	    The web pages are classified into 2 types
+		a) Static Page
+		b) Dynamic Page
+
+
+
+
+
+
+
