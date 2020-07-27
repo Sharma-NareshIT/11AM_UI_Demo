@@ -1,0 +1,56 @@
+HTML presentation is by using Elements.
+Elements are presented by using Tags.
+	anchor	- Element
+	<a>	- Tag for element
+HTML Elements are classified into following groups
+1. Normal Elements
+2. Void Elements
+3. RC Data Elements
+4. Raw Text Elements
+5. Foreign Elements
+
+Normal Elements:
+- A normal element is an HTML element that returns any presentation directly on callback.
+- Normal elements can return presentation without any additional attributes. 
+- Normal element can't stop the presentation after start, we have to explicitly stop. 
+- They continue upto end of document if end not defined.
+- A Normal Element requires an End tag to stop.
+- Normal Elements require start and end tags.
+
+Ex:	<b> </b>
+
+2. Void Elements
+- Void means no return type and return value.
+- Void element can't return a presentation directly on callback.
+- It requires additional attributes for presentation.
+- It presents only the content that is asked to present.
+- After presenting it stops.
+- It doesn't required an explicit stop.
+- Void elements are self ending elements.
+- Doesn't require "End" tag.
+
+Ex:	<img>      - are you missing end tag?
+	<img />    - it doesn't require and end tag
+	</img>     - invalid end tag
+	
+3. RC Data Elements: 
+- Rich Content Data Elements
+- These elements are used for presenting rich text content like scrollable, hidden etc.
+- These elements will not allow any another element with in the context.
+- When you try to use any another element into the current element it will use as plain text.
+
+Ex:
+	<textarea> </textarea>
+
+4. Raw Text Elements:
+- Can present any content by using raw text without any tag.
+- & uses various text, numeric and symbol combinations for presentation.
+		&copy;
+		&8377;
+
+5. Foreign Elements:
+- They are used with HTML but not native to HTML
+- They need additional library to import into HTML in order to use them.
+
+Ex:
+       SVG, MathML
