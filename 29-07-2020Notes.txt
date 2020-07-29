@@ -1,0 +1,82 @@
+Setup Environment for Designing Web Pages
+1. Create a WebSite on Local Web Server
+2. Design a Page for WebSite using HTML
+
+Step-1:
+- Locate Local Web Server on your computer
+     Control Panel --> Administrative Tools --> IIS
+         [Internet Information Services Manager]
+
+- Add IIS if not available
+     Control Panel --> Programs and Features --> Turn Windows Features ON or OFF --> Select IIS
+
+Step-2:
+- Create a website on IIS [Local Server]
+- Open IIS on your computer
+	Run --> Inetmgr
+- Expand Local Computer 
+- Expand Sites folder
+- Right Click on "Default Website"
+- Select "Add Virtual Directory"
+
+	Alias (WebSite Name) : htmlproject
+	Physical Path	   : C:\HtmlProject
+
+Virtual Path :	http://127.0.0.1/htmlproject
+Physical Path:	C:\HtmlProject
+
+Setup Environment using IDE [Integrated Development Environment]
+=============================================
+
+1. Download and Install  "Visual Studio Code"  IDE
+
+	https://code.visualstudio.com/
+
+
+You can also use Editors Like:
+-BBEdit
+-WebStrom
+-Sublime
+-Eclipse
+-CodeLite
+-GitLab
+-GitBucket
+- Komodo
+- PyCharm
+- Brackets
+- DW  etc..
+
+2. Open Visual Studio Code Editor
+3. Goto Extentions
+	- Search for  "Live Server"
+	- Install Live Server
+	- Install vscode-icons
+
+
+4. You can open your physical path in VS Code
+	
+     File Menu --> Open Folder --> C:\HtmlProject
+
+
+	        Hyper Text Document
+		(Web Page)
+	       ===================
+- A HTML document must have the extension ".html" or ".htm"
+- Technically .html and .htm both are same.
+
+
+
+	     Structure of HTML Document
+
+
+
+
+
+
+
+
+
+
+
+
+
