@@ -1,0 +1,49 @@
+HTML Page Structure
+-	A typical HTML page comprises of 2 sections at high level
+o	Document Declaration
+o	Document Scope
+
+Document Declaration:
+-	Every browser has its own parser.
+-	Parser can understand various versions of HTML and JavaScript.
+-	If a parser can understand only up to HTML 4 and ES4 [JavaScript] then it is known as “Legacy”.
+-	If parser can understand all versions of HTML and JavaScript including HTML 5 and ES5 above, then it is known as “Modern”
+-	When you design a HTML page you have to tell about the version of HTML to parser.
+-	You can define HTML version by using “Document Declaration”.
+-	HTML document declaration for HTML 5 Version is defined by using following Syntax:
+<!DOCTYPE html>
+-	If you are designing any HTML page in HTML 5 Version then it must start with “Document Declaration”
+
+Document Scope:
+-	Every browser has the ability to display multiple documents simultaneously at the same time.
+-	Hence it is important to define the scope of every document.
+-	HTML document scope is defined by using “<html>” tag.
+-	
+Ex:
+<!DOCTYPE html>
+<html>
+    Document-1
+</html>
+<html>
+    Document-2
+</html>
+
+-	Every document scope must define which language culture it is using.
+-	Every language culture has different techniques of presenting numbers, date time value, currency values etc.
+-	Various countries have various culture techniques.
+-	If you are designing a page for any specific culture the you have to mention the culture information.
+en-IN	India, 	en-US	US, 	 en-GB	UK
+-	The culture is defined by using an attribute “lang”
+
+Ex:
+<!DOCTYPE html>
+<html lang="en-IN">
+    
+</html>
+
+-	Document Scope is again divided into 2 major sections
+o	Head Section
+	<head> </head>
+o	Body Section
+	<body> </body>
+
